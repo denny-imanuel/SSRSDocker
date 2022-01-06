@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  ssis:
+    build: .
+    image: ssrs:latest
+    container_name: ssrs
+    ports:
+      - 1433:1433
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=ABCabc123!

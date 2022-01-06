@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "SSRSDocker", "SSRSDocker\SSRSDocker.rptproj", "{4DEFA1B1-07EC-4EEE-8FD7-CDBFF48243C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{93C75AEC-C9CE-4AA0-88AE-16368AFB042A}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile.txt = Dockerfile.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DEFA1B1-07EC-4EEE-8FD7-CDBFF48243C6}.Debug|Default.ActiveCfg = Debug
+		{4DEFA1B1-07EC-4EEE-8FD7-CDBFF48243C6}.Debug|Default.Build.0 = Debug
+		{4DEFA1B1-07EC-4EEE-8FD7-CDBFF48243C6}.Debug|Default.Deploy.0 = Debug
+		{4DEFA1B1-07EC-4EEE-8FD7-CDBFF48243C6}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{4DEFA1B1-07EC-4EEE-8FD7-CDBFF48243C6}.DebugLocal|Default.Build.0 = DebugLocal
+		{4DEFA1B1-07EC-4EEE-8FD7-CDBFF48243C6}.Release|Default.ActiveCfg = Release
+		{4DEFA1B1-07EC-4EEE-8FD7-CDBFF48243C6}.Release|Default.Build.0 = Release
+		{4DEFA1B1-07EC-4EEE-8FD7-CDBFF48243C6}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {588F8A1D-D6A9-4EC7-9F8E-2783087D39E1}
+	EndGlobalSection
+EndGlobal
